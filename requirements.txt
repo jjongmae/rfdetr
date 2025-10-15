@@ -1,0 +1,17 @@
+# RF-DETR Video Detection Requirements
+
+# Core dependencies
+opencv-python
+numpy
+
+# PyTorch with CUDA 12.1 support (for GPU acceleration)
+# If you need a different CUDA version, visit: https://pytorch.org/get-started/locally/
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+
+# RF-DETR (install after PyTorch)
+rfdetr
+
+# For CPU-only PyTorch installation, replace the --extra-index-url line with:
+# torch torchvision --index-url https://download.pytorch.org/whl/cpu
